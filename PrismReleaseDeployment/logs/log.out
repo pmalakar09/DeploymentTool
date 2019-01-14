@@ -1,0 +1,88 @@
+2018-12-17 16:55:03.135 [INFO] com.onmobile.prd.execution.Execution:14 - PRISM RELEASE Deployment Tool Start..
+2018-12-17 16:55:03.191 [INFO] com.onmobile.prd.util.Loading:20 - Input.properties is loading......
+2018-12-17 16:55:03.192 [INFO] com.onmobile.prd.util.Loading:22 - Input.properties loaded succesfully
+2018-12-17 16:55:03.253 [INFO] com.onmobile.prd.scripts.Script:74 - Driver Loading Is Done Successfully
+2018-12-17 16:55:03.847 [DEBUG] com.onmobile.prd.scripts.Script:84 - java.sql.SQLInvalidAuthorizationSpecException: Access denied for user 'onmobile'@'172.19.8.181' (using password: YES)
+2018-12-17 16:55:03.847 [INFO] com.onmobile.prd.scripts.Script:95 - SQL execution begin.....
+2018-12-17 16:55:03.850 [DEBUG] com.onmobile.prd.scripts.Script:187 - Error while writing Report.csv file !!!java.lang.NullPointerException
+2018-12-17 16:55:03.851 [DEBUG] com.onmobile.prd.execution.Execution:47 - Exception occures during SQL Script execution!!
+ Please check the REPORT.CSV file for details!!
+2018-12-17 16:58:43.294 [INFO] com.onmobile.prd.execution.Execution:14 - PRISM RELEASE Deployment Tool Start..
+2018-12-17 16:58:43.307 [INFO] com.onmobile.prd.util.Loading:20 - Input.properties is loading......
+2018-12-17 16:58:43.307 [INFO] com.onmobile.prd.util.Loading:22 - Input.properties loaded succesfully
+2018-12-17 16:58:43.315 [INFO] com.onmobile.prd.scripts.Script:74 - Driver Loading Is Done Successfully
+2018-12-17 16:58:43.729 [INFO] com.onmobile.prd.scripts.Script:76 - Connecting To The DB : jdbc:mysql://172.19.113.50:3306/prism
+2018-12-17 16:58:43.729 [INFO] com.onmobile.prd.scripts.Script:77 - DB connection done successfully
+2018-12-17 16:58:43.729 [INFO] com.onmobile.prd.scripts.Script:95 - SQL execution begin.....
+2018-12-17 16:58:43.771 [INFO] com.onmobile.prd.scripts.Script:106 - INPUT SCRIPT : []
+2018-12-17 16:58:43.772 [INFO] com.onmobile.prd.scripts.Script:116 - Total query count: 1
+2018-12-17 16:58:43.773 [INFO] com.onmobile.prd.scripts.Script:119 - SQL Query : select * from prism_config_params limit 11
+2018-12-17 16:58:43.773 [INFO] com.onmobile.prd.scripts.Script:150 - Executing Query : select * from prism_config_params limit 11
+2018-12-17 16:58:43.775 [INFO] com.onmobile.prd.scripts.Script:160 - Successfully Executed Query : select * from prism_config_params limit 11
+2018-12-17 16:58:43.786 [INFO] com.onmobile.prd.execution.Execution:39 - SQL Query deployed successfully.
+WAR not replaced & Tomcat not restarted, "WAR_REPLACE=False & TOMCAT_RESTART=False" 
+2018-12-17 17:14:20.088 [INFO] com.onmobile.prd.execution.Execution:14 - PRISM RELEASE Deployment Tool Start..
+2018-12-17 17:14:20.102 [INFO] com.onmobile.prd.util.Loading:20 - Input.properties is loading......
+2018-12-17 17:14:20.102 [INFO] com.onmobile.prd.util.Loading:22 - Input.properties loaded succesfully
+2018-12-17 17:14:20.110 [INFO] com.onmobile.prd.scripts.Script:74 - Driver Loading Is Done Successfully
+2018-12-17 17:14:20.253 [INFO] com.onmobile.prd.scripts.Script:76 - Connecting To The DB : jdbc:mysql://172.19.113.50:3306/prism
+2018-12-17 17:14:20.254 [INFO] com.onmobile.prd.scripts.Script:77 - DB connection done successfully
+2018-12-17 17:14:20.254 [INFO] com.onmobile.prd.scripts.Script:95 - SQL execution begin.....
+2018-12-17 17:14:20.264 [INFO] com.onmobile.prd.scripts.Script:106 - INPUT SCRIPT : []
+2018-12-17 17:14:20.268 [INFO] com.onmobile.prd.scripts.Script:116 - Total query count: 2
+2018-12-17 17:14:20.268 [INFO] com.onmobile.prd.scripts.Script:119 - SQL Query : select * from prism_config_params limit 11
+2018-12-17 17:14:20.268 [INFO] com.onmobile.prd.scripts.Script:150 - Executing Query : select * from prism_config_params limit 11
+2018-12-17 17:14:20.270 [INFO] com.onmobile.prd.scripts.Script:160 - Successfully Executed Query : select * from prism_config_params limit 11
+2018-12-17 17:14:20.271 [INFO] com.onmobile.prd.scripts.Script:119 - SQL Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:14:20.271 [INFO] com.onmobile.prd.scripts.Script:150 - Executing Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:14:20.273 [INFO] com.onmobile.prd.scripts.Script:160 - Successfully Executed Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:14:20.329 [INFO] com.onmobile.prd.execution.Execution:39 - SQL Query deployed successfully.
+WAR not replaced & Tomcat not restarted, "WAR_REPLACE=False & TOMCAT_RESTART=False" 
+2018-12-17 17:17:39.345 [INFO] com.onmobile.prd.execution.Execution:14 - PRISM RELEASE Deployment Tool Start..
+2018-12-17 17:17:39.364 [INFO] com.onmobile.prd.util.Loading:20 - Input.properties is loading......
+2018-12-17 17:17:39.364 [INFO] com.onmobile.prd.util.Loading:22 - Input.properties loaded succesfully
+2018-12-17 17:17:39.372 [INFO] com.onmobile.prd.scripts.Script:74 - Driver Loading Is Done Successfully
+2018-12-17 17:17:39.513 [INFO] com.onmobile.prd.scripts.Script:76 - Connecting To The DB : jdbc:mysql://172.19.113.50:3306/prism
+2018-12-17 17:17:39.513 [INFO] com.onmobile.prd.scripts.Script:77 - DB connection done successfully
+2018-12-17 17:17:39.513 [INFO] com.onmobile.prd.scripts.Script:95 - SQL execution begin.....
+2018-12-17 17:17:39.525 [INFO] com.onmobile.prd.scripts.Script:106 - INPUT SCRIPT : []
+2018-12-17 17:17:39.526 [INFO] com.onmobile.prd.scripts.Script:116 - Total query count: 2
+2018-12-17 17:17:39.526 [INFO] com.onmobile.prd.scripts.Script:119 - SQL Query : select * from prism_config_params limit 11
+2018-12-17 17:17:39.527 [INFO] com.onmobile.prd.scripts.Script:150 - Executing Query : select * from prism_config_params limit 11
+2018-12-17 17:17:39.529 [INFO] com.onmobile.prd.scripts.Script:160 - Successfully Executed Query : select * from prism_config_params limit 11
+2018-12-17 17:17:39.530 [INFO] com.onmobile.prd.scripts.Script:119 - SQL Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:17:39.530 [INFO] com.onmobile.prd.scripts.Script:150 - Executing Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:17:39.532 [INFO] com.onmobile.prd.scripts.Script:160 - Successfully Executed Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:17:39.542 [INFO] com.onmobile.prd.restart.Restart:87 - WAR_REPLACE= false
+2018-12-17 17:17:39.542 [INFO] com.onmobile.prd.restart.Restart:88 - PRISM_JAR_REPLACE= false
+2018-12-17 17:17:39.543 [INFO] com.onmobile.prd.restart.Restart:89 - TOMCAT_RESTART= true
+2018-12-17 17:17:39.589 [INFO] com.onmobile.prd.restart.Restart:94 - Host= 172.19.113.50
+Host_UserName= root
+Host_Password= Onm0bile$123
+2018-12-17 17:17:43.295 [DEBUG] com.onmobile.prd.restart.Restart:133 - Error: com.jcraft.jsch.JSchException: Auth fail
+Unable to restart Tomcat!!
+2018-12-17 17:19:50.216 [INFO] com.onmobile.prd.execution.Execution:14 - PRISM RELEASE Deployment Tool Start..
+2018-12-17 17:19:50.231 [INFO] com.onmobile.prd.util.Loading:20 - Input.properties is loading......
+2018-12-17 17:19:50.232 [INFO] com.onmobile.prd.util.Loading:22 - Input.properties loaded succesfully
+2018-12-17 17:19:50.240 [INFO] com.onmobile.prd.scripts.Script:74 - Driver Loading Is Done Successfully
+2018-12-17 17:19:50.410 [INFO] com.onmobile.prd.scripts.Script:76 - Connecting To The DB : jdbc:mysql://172.19.113.50:3306/prism
+2018-12-17 17:19:50.411 [INFO] com.onmobile.prd.scripts.Script:77 - DB connection done successfully
+2018-12-17 17:19:50.411 [INFO] com.onmobile.prd.scripts.Script:95 - SQL execution begin.....
+2018-12-17 17:19:50.465 [INFO] com.onmobile.prd.scripts.Script:106 - INPUT SCRIPT : []
+2018-12-17 17:19:50.467 [INFO] com.onmobile.prd.scripts.Script:116 - Total query count: 2
+2018-12-17 17:19:50.467 [INFO] com.onmobile.prd.scripts.Script:119 - SQL Query : select * from prism_config_params limit 11
+2018-12-17 17:19:50.467 [INFO] com.onmobile.prd.scripts.Script:150 - Executing Query : select * from prism_config_params limit 11
+2018-12-17 17:19:50.470 [INFO] com.onmobile.prd.scripts.Script:160 - Successfully Executed Query : select * from prism_config_params limit 11
+2018-12-17 17:19:50.471 [INFO] com.onmobile.prd.scripts.Script:119 - SQL Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:19:50.471 [INFO] com.onmobile.prd.scripts.Script:150 - Executing Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:19:50.473 [INFO] com.onmobile.prd.scripts.Script:160 - Successfully Executed Query : insert into prism_config_params values ('PRASENJIT','-1','TEST_TOOL','123')
+2018-12-17 17:19:50.485 [INFO] com.onmobile.prd.restart.Restart:87 - WAR_REPLACE= false
+2018-12-17 17:19:50.485 [INFO] com.onmobile.prd.restart.Restart:88 - PRISM_JAR_REPLACE= false
+2018-12-17 17:19:50.485 [INFO] com.onmobile.prd.restart.Restart:89 - TOMCAT_RESTART= true
+2018-12-17 17:19:50.502 [INFO] com.onmobile.prd.restart.Restart:94 - Host= 172.19.113.50
+Host_UserName= root
+Host_Password= Onm0bile
+2018-12-17 17:19:51.163 [INFO] com.onmobile.prd.restart.Restart:98 - Host Connected
+2018-12-17 17:19:51.222 [INFO] com.onmobile.prd.restart.Restart:102 - Executing SH File
+2018-12-17 17:20:25.341 [INFO] com.onmobile.prd.restart.Restart:116 - Tomcat restart done successfully
+Tomcat is up now, but exit status not set!
